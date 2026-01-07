@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo de Defesa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Jogo de Defesa</h1>
+
+  <div id="info">
+    <div>❤️ Base: <span id="life">5</span></div>
+    <div>⭐ Pontos: <span id="score">0</span></div>
+    <div>🌊 Onda: <span id="wave">1</span></div>
+  </div>
+
+  <div id="game">
+    <div class="base" id="base"></div>
+
+    <div id="gameOver">
+      <p>💀 Game Over</p>
+      <button onclick="location.reload()">Reiniciar</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
