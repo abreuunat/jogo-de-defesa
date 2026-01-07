@@ -2,6 +2,10 @@
 
 Pequeno jogo de defesa de base criado como projeto de disciplina. O objetivo é proteger a base dos inimigos que atravessam a tela; clique sobre os inimigos para destruí-los antes que atinjam a base.
 
+**Link GitHub Page**
+
+- https://abreuunat.github.io/jogo-de-defesa/
+
 **Recursos implementados**
 - Movimento suave dos inimigos com `requestAnimationFrame`
 - Sistema de ondas com dificuldade crescente
